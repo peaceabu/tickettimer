@@ -1,0 +1,44 @@
+/* src/BookingForm.css */
+.date-input {
+    padding: 10px;
+    border: 2px solid #61dafb;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .date-input:focus {
+    border-color: #21a1f1;
+    box-shadow: 0 0 10px rgba(33, 161, 241, 0.5);
+    outline: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #21a1f1;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .date-label{
+    font-size: 16px;
+  }

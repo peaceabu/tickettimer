@@ -1,5 +1,5 @@
 // src/App.js
-import React, { Component } from 'react';
+import React from 'react';
 import BookingForm from './components/BookingForm';
 import './App.css';
 
